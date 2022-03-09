@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb_Clone</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_top">
+            <div class="icon">
+                <i class="fab fa-airbnb"></i>
+                <span>airbnb</span>
+            </div>
+            <div class="links">
+                <a class="selected" href="#">Places to stay</a>
+                <a class="focusing" href="#">Experiences</a>
+                <a class="focusing" href="#">Online Experiences</a>
+            </div>
+            <div class="profile">
+                <button class="btn_host">Become a host</button>
+                <div class="world_icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="profile_container">
+                    <div class="profile_item">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="profile_item">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar_bottom">
+            <form action="" class="search_bar">
+                <div class="search_option">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" placeholder="Where are you going?">
+                </div>
+                <div class="search_option">
+                    <label for="in_date">Check in</label>
+                    <input type="text" id="in_date" placeholder="Add dates">
+                </div>
+                <div class="search_option">
+                    <label for="out_date">Check out</label>
+                    <input type="text" id="out_date" placeholder="Add dates">
+                </div>
+                <div class="search_option">
+                    <div class="search_container">
+                        <div class="inner_option">
+                            <label for="guests">Guests</label>
+                            <input type="text" id="guests" placeholder="Add guests">
+                        </div>
+                        <button class="btn_search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div class="cover">
+        <div class="current_news">
+            <p>Help house 100,000 refugees fleeing Ukraine</p>
+            <button>Learn more</button>
+        </div>
+        <div class="cover_image">
+            <p>Let your curiosity do the booking</p>
+            <button type="button"></button>
+        </div>
+    </div>
+    <div class="location_card_container">
+        <div class="section_locations">
+            <div class="trip_info">
+                <h2>Inspiration for your next trip</h2>
+            </div>
+            <div class="location_container">
+                <div class="location">
+                    <div class="img_container">
+                        <img src="./images/mussoorie.jpg" alt="location_mussoorie">
+                    </div>
+                    <div class="location_details location_col_one">
+                        <h3>Mussoorie</h3>
+                        <p>223 kilometres away</p>
+                    </div>
+                </div>
+                <div class="location">
+                    <div class="img_container">
+                        <img src="./images/manali.jpg" alt="location_manali">
+                    </div>
+                    <div class="location_details location_col_two">
+                        <h3>Manali</h3>
+                        <p>405 kilometres away</p>
+                    </div>
+                </div>
+                <div class="location">
+                    <div class="img_container">
+                        <img src="./images/kasauli.jpg" alt="location_kasauli">
+                    </div>
+                    <div class="location_details location_col_three">
+                        <h3>Kasauli</h3>
+                        <p>257 kilometres away</p>
+                    </div>
+                </div>
+                <div class="location">
+                    <div class="img_container">
+                        <img src="./images/haldwani.jpg" alt="location_haldwani">
+                    </div>
+                    <div class="location_details location_col_four">
+                        <h3>Haldwani</h3>
+                        <p>235 kilometres away</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="exp_container">
+        <div class="exp">
+            <div class="exp_data">
+                <h2>Discover Airbnb Experiences</h2>
+            </div>
+            <div class="exp_card_container">
+                <div class="exp_card exp_one">
+                    <h3>Things to do <br>on your trip</h3>
+                    <button type="button">Experiences</button>
+                </div>
+                <div class="exp_card exp_two">
+                    <h3>Things to do <br>from home</h3>
+                    <button type="button">Online Experiences</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="question_container">
+        <div class="manager">
+            <div class="question">
+                <div class="q_heading">
+                    <h3>Questions <br> about <br> hosting?</h3>
+                </div>
+                <button type="button">Ask a superhost</button>
+            </div>
+        </div>
+    </div>
+    <footer class="foot_container">
+        <div class="holder">
+            <div class="foot_upper">
+                <div class="foot_col">
+                    <ul>
+                        <li>Support</li>
+                        <li>Help Centre</li>
+                        <li>Safety information</li>
+                        <li>Cancellation options</li>
+                        <li>Our COVID-19 Response</li>
+                        <li>Supporting people with disabilities</li>
+                        <li>Report a neighbourhood concern</li>
+                    </ul>
+                </div>
+                <div class="foot_col">
+                    <ul>
+                        <li>Community</li>
+                        <li>Airbnb.org: disaster relief housing</li>
+                        <li>Support Afghan refugees</li>
+                        <li>Combating discrimination</li>
+                    </ul>
+                </div>
+                <div class="foot_col">
+                    <ul>
+                        <li>Hosting</li>
+                        <li>Try hosting</li>
+                        <li>AirCover: protection for Hosts</li>
+                        <li>Explore hosting resources</li>
+                        <li>Visit our community forum</li>
+                        <li>How to host responsibly</li>
+                    </ul>
+                </div>
+                <div class="foot_col">
+                    <ul>
+                        <li>About</li>
+                        <li>Newsroom</li>
+                        <li>Learn about new features</li>
+                        <li>Letter from our founders</li>
+                        <li>Careers</li>
+                        <li>Investors</li>
+                        <li>Airbnb Luxe</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot_lower">
+                <div class="foot_lower_left">
+                    <span>© 2022 Airbnb, Inc.</span>
+                    <span>·  Privacy</span>
+                    <span>·  Terms</span>
+                    <span>·  Sitemap</span>
+                    <span>·  Company details</span>
+                </div>
+                <div class="foot_lower_right">
+                    <div class="foot_right_one">
+                        <i class="fas fa-globe fa_foot_globe"></i>
+                        <span>English(IN)</span>
+                    </div>
+                    <div class="foot_right_two">
+                        <i class="fas fa-rupee-sign"></i>
+                        <span>INR</span>
+                    </div>
+                    <div class="socials">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
